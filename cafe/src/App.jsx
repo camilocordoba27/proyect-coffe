@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import NavBar from './components/navbar/navbar';
+import Home from './components/home/home.jsx'
 
 // lo deje en el minuto 17:03 https://www.youtube.com/watch?v=VU2rjKwhY_s&t=276s
 
@@ -19,6 +20,7 @@ const App = () => {
   return (
     <div className='overflow-x-hidden'>
       <NavBar />
+      <Home />
     </div>
   )
 }
