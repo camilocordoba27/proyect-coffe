@@ -7,7 +7,7 @@ const ServicesData = [
      id: 1,
      img: Img2,
      name: "Espresso",
-     description: "Disfruta de la potencia y el sabor concentrado de nuestro Espresso, elaborado con granos de café de la más alta calidad y una técnica experta para ofrecerte una experiencia inigualable.",
+     description: "Enjoy the power and concentrated flavor of our Espresso, made with the highest quality coffee beans and expert technique to offer you an unmatched experience.",
      aosDelay: "100",    
     },
 
@@ -15,7 +15,7 @@ const ServicesData = [
         id: 2,
         img: Img2,
         name: "Americano",
-        description: "Ven a disfrutar de nuestro delicioso Café Americano, preparado con granos de café recién tostados y agua pura, para darte el impulso que necesitas para comenzar tu día con fuerza.",
+        description: "Come enjoy our delicious American Coffee, prepared with freshly roasted coffee beans and pure water, to give you the boost you need to start your day strong.",
         aosDelay: "300",    
        },
 
@@ -23,7 +23,7 @@ const ServicesData = [
         id: 3,
         img: Img2,
         name: "Cappuccino",
-        description: "Deleita tus sentidos con nuestro exquisito Cappuccino, una mezcla perfecta de espresso suave, leche vaporizada y una generosa capa de espuma cremosa.",
+        description: "Delight your senses with our exquisite Cappuccino, a perfect blend of smooth espresso, steamed milk and a generous layer of creamy foam.",
         aosDelay: "500",    
        },
 ]
