@@ -3,8 +3,8 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import NavBar from './components/navbar/navbar';
 import Home from './components/home/home.jsx'
+import Services from './components/services/services.jsx';
 
-// lo deje en el minuto 17:03 https://www.youtube.com/watch?v=VU2rjKwhY_s&t=276s
 
 const App = () => {
   useEffect (() => {
@@ -21,6 +21,7 @@ const App = () => {
     <div className='overflow-x-hidden'>
       <NavBar />
       <Home />
+      <Services />
     </div>
   )
 }
