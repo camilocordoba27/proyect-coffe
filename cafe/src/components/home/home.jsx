@@ -6,7 +6,7 @@ const Home = () => {
         <div className="container pb-8 sm:pb-0">
             <div className="grid grid-cols-1 sm:grid-cols-2">
                 {/* Text content section */}
-                <div className='order-1 sm:order-2'>
+                <div className='order-1 sm:order-2 flex flex-col justify-center gap-6'>
                     <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold py-6 px-4">We serve the richest <span className='text-primary font-cursive'>Coffee</span> in the city</h1>
                     <div className="py-2">
                         <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary rounded-full px-4 py-2 text-white hover:scale-105 duration-200">
@@ -17,6 +17,12 @@ const Home = () => {
                 {/* Image content section */}
                 <div className='min-h-[450px] flex justify-center items-center order-1 sm:order-2 relative'>
                     <img src={HeroImg} alt="" className='w-[300px] sm:w-[450px] sm:scale-110 mx-auto spin' />
+                    <div className='bg-gradient-to-r from-primary to-secondary absolute top-10 left-10 p-3 rounded-xl'>
+                        <h1>Hey Coder</h1>
+                    </div>
+                    <div className='bg-gradient-to-r from-primary to-secondary absolute bottom-10 right-10 p-3 rounded-xl'>
+                        <h1>Best Coffee</h1>
+                    </div>
                 </div>
             </div>
         </div>
@@ -24,4 +30,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
