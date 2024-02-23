@@ -5,6 +5,7 @@ import NavBar from './components/navbar/navbar';
 import Home from './components/home/home.jsx'
 import Services from './components/services/services.jsx';
 import Banner from './components/banner/banner.jsx';
+import AppStore from './components/appstore/appstore.jsx';
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       <Home />
       <Services />
       <Banner />
+      <AppStore />
     </div>
   )
 }
